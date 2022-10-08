@@ -4,11 +4,15 @@
   "scripts": {
     "build": "slidev build",
     "dev": "slidev --open",
-    "export": "slidev export"
+    "export": "slidev export",
+    "generate": "plop"
   },
   "dependencies": {
     "@slidev/cli": "^0.36.5",
     "@slidev/theme-default": "*",
     "@slidev/theme-seriph": "*"
+  },
+  "devDependencies": {
+    "plop": "^3.1.1"
   }
 }
