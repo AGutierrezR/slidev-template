@@ -1,0 +1,12 @@
+:not(pre) > code:before,
+:not(pre) > code:after {
+  display: none;
+}
+
+p > code {
+  font-weight: 400;
+  color: tomato;
+  background: rgba(135,131,120,0.15);
+  padding-inline: 4px;
+  padding-block: 4px;
+}

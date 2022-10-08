@@ -1,0 +1,9 @@
+.slidev-layout:not(.with-lead) h1 + p {
+  margin: 1rem 0;
+  opacity: 1;
+}
+
+.slidev-layout .flex p {
+  margin: 0;
+  margin-top: 1rem;
+}
